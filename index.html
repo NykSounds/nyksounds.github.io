@@ -7,11 +7,23 @@
             #centered {
                 text-align: center;
             }
+
+            body, html {
+                height: 100%;
+                margin: 0%;
+            }
+
+            #bg {
+                background-image: url("bg-image.png");
+                height: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
         </style>        
     </head>
     <body id="centered">
-        <h1>Matka</h1>
-        <img src="bg-image.png">
-        
+        <div id="bg"></div>
+
     </body>
 </html>
