@@ -2,8 +2,11 @@
 
 <html lang="en">
     <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jacquard+24&display=swap" rel="stylesheet">
         <title>NykSounds</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
         <style>
             body, html {
                 height: 100%;
@@ -39,16 +42,22 @@
                 min-width: 75px;
                 position: absolute;
             }
+            #jacquard-24-regular {
+                font-family: "Jacquard 24", system-ui;
+                font-weight: 400;
+                font-style: normal;
+            }
+
         </style>        
     </head>
     <body id="centered">
         <img src="navbar.png" width="100%" style="margin: 0%; position: absolute;">
         <img src="bg-image.png" width="100%" style="margin: 0%; position: absolute; padding-top:15%">
-        <button style="margin-top: 75%; margin-left: 34%; padding: 1.5%">D O W N L O A D</button>
-        <button style="margin-top: 75%; margin-left: 52%; padding: 1.5%">D O N A T E</button>
-        <audio controls style="margin-top: 80%; margin-left: 39%;">
+        <button id="jacquard-24-regular" style="margin-top: 75%; margin-left: 40%; padding: 1.5%">Download</button>
+        <button id="jacquard-24-regular" style="margin-top: 75%; margin-left: 52%; padding: 1.5%">Donate</button>
+        <p id="jacquard-24-regular" style="position: absolute; padding-top: 20%; padding-left: 1%; color: white; text-align: center; font-size: 50px">The sound of the Indian Matka sampled from a Matka, the circumference of which is 30 inches. The sound could be incorporated into a musical piece to add an Indian flavor. The humble Matka, a traditional Indian clay pot, can be a surprisingly versatile addition to your music.  While its size in this case (30-inch circumference) might influence the pitch slightly, the sampled sound itself holds a wealth of sonic possibilities.  Its characteristic rattle can be layered with percussion to create a driving, earthy groove.</p>
+        <audio controls style="margin-top: 80%; margin-left: 38.6%;">
             <source src="ssd.mp3" type="audio/mp3">
         </audio>
-    </body>
     </body>
 </html>
