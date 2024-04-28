@@ -25,7 +25,6 @@ body {
   .hero {
     text-align: center;
     padding: 50px;
-    background-image: url("hero-background.jpg");
     background-size: cover;
     background-position: center;
     color: #fff;
