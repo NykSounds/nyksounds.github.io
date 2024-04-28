@@ -1,69 +1,48 @@
 <!DOCTYPE html>
-
 <html lang="en">
-    <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Jacquard+24&display=swap" rel="stylesheet">
-        <title>NykSounds</title>
-        <link rel="icon" type="image/jpeg" href="./ico.jpeg">
-        <style>
-            body, html {
-                height: 100%;
-                margin: 0%;
-            }
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beautiful Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Your Company Name</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="samples.html">Samples</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+  </header>
 
-            #bg {
-                background-image: url("bg-image.png");
-                height: 100%;
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: cover;
-            }
-            
-            button {
-                font-family: "Josefin Sans", sans-serif;
-                font-optical-sizing: auto;
-                font-weight: weight;
-                font-style: normal;
-                user-select: none;
-                display: inline-block;
-                background: #d9820d;
-                color: white;
-                text-decoration: none;
-                font-size: 25px;
-                cursor: pointer;
-                border-radius: 3px;
-                box-shadow: inset 0 0 1px (255,255,255,0.21)rgba;
-                text-align: center;
-                line-height: 4px;
-                font-weight: bold;
-                height: 35px;
-                min-width: 75px;
-                position: absolute;
-            }
-            #jacquard-24-regular {
-                font-family: "Jacquard 24", system-ui;
-                font-weight: 400;
-                font-style: normal;
-            }
+  <main>
+    <section class="hero">
+      <img src="hero-image.jpg" alt="Hero Image">
+      <h2>Captivating Headline</h2>
+      <p>A compelling description of your product or service.</p>
+      <button>Get Started</button>
+    </section>
 
-        </style>        
-    </head>
-    <body id="centered">
-        <img src="navbar.png" width="100%" style="margin: 0%; position: absolute;">
-        <img src="bg-image.png" width="100%" style="margin: 0%; position: absolute; padding-top:15%">
-        <p id="jacquard-24-regular" style="position: absolute; padding-top: 20%; padding-left: 1%; color: white; text-align: center; font-size: 50px">The sound of the Indian Matka sampled from a Matka, the circumference of which is 30 inches. The sound could be incorporated into a musical piece to add an Indian flavor. The humble Matka, a traditional Indian clay pot, can be a surprisingly versatile addition to your music.  While its size in this case (30-inch circumference) might influence the pitch slightly, the sampled sound itself holds a wealth of sonic possibilities.  Its characteristic rattle can be layered with percussion to create a driving, earthy groove.</p>
-        <a href="./Earthen Pot.zip"><button id="jacquard-24-regular" style="margin-top: 75%; margin-left: 40%; padding: 1.5%">Download</button></a>
-        <a href="https://www.paypal.com/myaccount/transfer/homepage"><button id="jacquard-24-regular" style="margin-top: 75%; margin-left: 52%; padding: 1.5%">Donate</button></a>
-        <div style="position: absolute; padding-left: 1%; padding-top:75%; color:whitesmoke; font-size: 50px;" id="jacquard-24-regular">(geetnayak001@gmail.com)</div>
-        <div style="position: absolute; padding-left: 23%; padding-top:80%; color:whitesmoke; font-size: 50px;" id="jacquard-24-regular">Preview: </div>
-        <audio controls style="margin-top: 80%; margin-left: 38.6%;">
-            <source src="./Preview.mp3" type="audio/mp3">
-        </audio>
-        <div style="background-color: black; padding-top: 25%;">
-            <h2 style="color: white; font-size: 15px; padding-left: 1%; padding-bottom: 2%;">Email: g33tnyk@gmail.com ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎  ‎ Instagram: @g33tnyk  ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎  ‎ Band Camp: OakNyek  ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎  ‎ ‎ ‎ Youtube: @OakNyYekMusic ‎  ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎  Paypal: geetnayak001@gmail.com</h2>
+    <section class="features">
+      <h3>Our Amazing Features</h3>
+      <ul>
+        <li>Feature 1</li>
+        <li>Feature 2</li>
+        <li>Feature 3</li>
+      </ul>
+    </section>
 
-        </div>
-    </body>
+    <section class="testimonials">
+      <h3>What People Say</h3>
+      <p>"This is an awesome product!" - Happy Customer</p>
+      <p>"It's made my life so much easier!" - Another Satisfied User</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Your Company Name</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
 </html>

@@ -1,0 +1,192 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    font-size: 2em;
+  }
+  
+  nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 50px;
+    background-image: url("hero-background.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+  }
+  
+  .hero img {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .hero button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .features {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .features h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .features ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .features li {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+  }
+  
+  .testimonials {
+    padding: 50px;
+    border-top: 1px solid #ddd;
+  }
+  
+  .testimonials p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    font-style: italic;
+  }
+  
+  footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  
+  /* Center headings and buttons in both index.html and download.html */
+  
+  .sound-library {
+    margin-bottom: 50px;
+  }
+  
+  .sound-library h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    text-align: center; /* Center heading */
+  }
+  
+  .sound-library audio {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .sound-library div {
+    text-align: center; /* Center content within the container */
+  }
+  
+  /* Optionally style the buttons using existing class or create a new one */
+  
+  .sound-library button {
+    background-color: #333; /* Example color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; /* Optional spacing */
+  }
+  
+  /* OR */
+  
+  .download-button {
+    background-color: #333; /* Example color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; /* Optional spacing */
+  }
+  
+  .sound-library button,
+  .sound-library .download-button {
+    /* Add common styles here if using both options */
+  }
+
+  .contact {
+    padding: 50px;
+    /* Remove text-align: center; */
+  }
+
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    width: 40%; /* Adjust width as needed */
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+
+  .contact label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333; /* Darker color */
+  }
+  
+  .contact input,
+  .contact textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: #f5f5f5; /* Light gray background */
+  }
+
+  
+  .contact button {
+    background-image: linear-gradient(to right, #3366ff, #00ccff); /* Blue gradient */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  .contact button:hover {
+    background-image: linear-gradient(to right, #00ccff, #3366ff); /* Reverse gradient on hover */
+  }
+  
+  
+  
