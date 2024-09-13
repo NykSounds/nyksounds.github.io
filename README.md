@@ -1,12 +1,14 @@
 # Nyksounds
 #### Video Demo: 
 #### Description:
-When I first started making music, I was a solitary figure in my bedroom, experimenting with various instruments and software. I quickly realized that the quality of my sounds was heavily dependent on the sample packs I had access to. Unfortunately, many of the commercially available options were either overpriced or lacked the authenticity and creativity I was looking for.
+I remember a time when I began making music and it was very much a lonely vocation. I sat in my room and played with a number of instruments and software. It was only later that I understood that the quality of the sounds I was creating was heavily dependent on the sample packs I owned. Sadly, a lot of the alternatives that would be available on the market were either too much or did not have the originality and flair I needed.
 
-That's when I had the idea to create a platform where musicians could share their original sample packs with each other. I envisioned a space where creativity and collaboration could flourish, free from the constraints of profit-driven motives.
-I'm considering adding features like integration with popular digital audio workstations (DAWs), educational resources, and a mobile app. I'm also interested in exploring ways to further enhance the community features and foster even more collaboration.
+That’s when I got the idea of making a website where people would upload their original samples in order to share them with other musicians. I imagined a place where ideas could take root and blossom, where resources would not be driven by the pursuit of profit.
 
-Ultimately, I want the platform to remain a valuable resource for musicians of all levels. I believe that by providing a free and open-source platform for sharing sample packs, we can help to democratize music production and make it more accessible to everyone.
+I started out by sketching the functional features that I personally wanted to be included. I wanted this platform to be user-friendly because I wanted musicians from all walks of life to be able to use it. I also wanted to make sure that the platform is designed in such a way that there are no hurdles in community building and maintenance.
+
+So, I started tinkering with HTML, CSS, JS, and PHP for the website. I selected Arch Linux along with (neo)vim for the development purposes as they were known to me and I knew they would be quite effective.
+
 
 **TODO**
 - [ ] Add a dark mode
